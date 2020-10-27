@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.navernow" version="0.0.1" name="navernow" provider-name="kor now">
+<requires>
+  <import addon="xbmc.python" version="2.26.0"/>
+  <import addon="script.module.requests" version="2.22.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">navernow Plugin</summary>
+  <description lang="en_GB">navernow plugin for Kodi mediacenter.</description>
+  <disclaimer lang="en_GB">now.naver.com</disclaimer>
+  <summary lang="ko_kr">네이버나우</summary>
+  <description lang="ko_kr">코디용 네이버나우.</description>
+  <disclaimer lang="ko_kr">now.naver.com</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+  </assets>
+  <news>변경사항</news>
+</extension>
+</addon>
